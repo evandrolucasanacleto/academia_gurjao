@@ -1,17 +1,20 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(255, 115, 0);
+    background-image: linear-gradient(to bottom, #C95405, #FF6B00, #fa7f26);
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .container {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.747), rgb(211, 98, 6));
+    background-image: linear-gradient(130deg, #000000 ,#C95405, #FF6B00);
     padding: 20px;
     border-radius: 10px;
     width: 80%;
     max-width: 800px;
     margin: 50px auto;
-    color: white;
+    color: #fff;
     text-align: left; /* Alinhamento à esquerda para o texto */
 }
 
@@ -21,13 +24,59 @@ body {
     align-items: center; /* Alinha verticalmente ao centro */
 }
 
+.sair-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 30px;
+    left: 15px;
+    cursor: pointer;
+}
+
+.sair-button:hover {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.montar-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.montar-button:hover {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.perfil-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.perfil-button:hover {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
 .logo {
     width: 50px;
     height: auto;
 }
 
 .greeting {
-    margin-left: 200px;
+    text-align: center;
+    padding: 10px;
 }
 
 .subtitle {
@@ -41,8 +90,8 @@ body {
 }
 
 .day {
-    background-color: white;
-    color: black;
+    background-color: #fff;
+    color: #c95405;
     padding: 15px;
     border-radius: 5px;
     width: 45%; /* Ajuste a largura conforme necessário */
@@ -51,7 +100,7 @@ body {
 .separator {
     border: none;
     height: 2px;
-    background-color: white;
+    background-color: #fff;
     margin: 30px 0;
 }
 

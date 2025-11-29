@@ -116,7 +116,7 @@ $contadao = new ContaDAO();
                                                 <div class="col-md-2">
                                                     <br>
                                                     <input type="hidden" name="id" value="<?= $conta->getId() ?>" />
-                                                    <button class="btn btn-primary" type="submit" name="editar">Cadastrar</button>
+                                                    <button class="btn btn-primary" type="submit" name="editar">Salvar</button>
                                                 </div>
                                             </div>
                                         </form>

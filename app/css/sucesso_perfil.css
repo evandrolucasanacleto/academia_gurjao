@@ -1,0 +1,66 @@
+body {
+    font-family: "Righteous", sans-serif;
+    background-image: linear-gradient(to bottom, #C95405, #FF6B00, #fa7f26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    color: #ffa908;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #191919;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+i {
+    color: #ffa908;
+    font-size: 100px;
+    line-height: 200px;
+    padding-top: 25%;
+    padding-left: 10%;
+}
+
+.card {
+    background-image: linear-gradient(130deg, #000000 ,#C95405, #FF6B00);
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+.continuar-button {
+    background-color: transparent;
+    border: 1px solid #e7e2db;
+    color: #e7e2db;
+    padding: 10px 40px;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 300px;
+    align-self: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.continuar-button:hover {
+    background-color: #e7e2db;
+    color: #FF6B00;
+    transition: .8s;
+    transform: scale(1.1);
+}
